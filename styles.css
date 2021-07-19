@@ -362,3 +362,30 @@ textarea.contact-form{
 .contact-form-btn:hover{
     background: #2980b9;
 }
+
+
+@media screen and (max-width: 800px) {
+    html {
+      font-size: 58%;
+      width:auto;
+    }
+}
+  
+@media screen and (max-width: 550px) {
+    body {
+      font-size: 1rem;
+      width:auto;
+    }
+    .home-area h1{
+        font-size: 45px;
+    }
+} 
+
+@media screen and (max-width: 370px) {
+    .home-area h1{
+        font-size: 20px;
+    }
+    .parah p{
+        font-size: 0.8rem;
+    }
+} 
